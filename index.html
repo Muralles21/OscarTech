@@ -1,226 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movile Solutions</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Roboto', sans-serif;
-            line-height: 1.6;
-        }
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Movile Solutions provides computer hardware repair, software installation, and truck software installation backed by more than 10 years of experience."><meta name="theme-color" content="#0E1114"><title>Movile Solutions | Computer Repair & Software</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230E1114'/%3E%3Cpath d='M18 18h28v28H18zM25 25h14v14H25z' fill='none' stroke='%231FAA6F' stroke-width='4'/%3E%3C/svg%3E"><style>
+:root{--bg:#0E1114;--accent:#1FAA6F;--white:#fff;--muted:rgba(255,255,255,.72);--glass:rgba(255,255,255,.08);--line:rgba(255,255,255,.14);--radius:28px;--card-radius:22px;--pill:999px;--space:clamp(20px,4vw,64px);--max:1300px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:'Plus Jakarta Sans',sans-serif;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}a:focus-visible,button:focus-visible{outline:2px solid #fff;outline-offset:3px}svg{display:block}img{display:block;max-width:100%}.page-top{background:#ECECEC;padding:20px}.hero{position:relative;min-height:760px;min-height:min(900px,calc(100svh - 40px));border-radius:var(--radius);overflow:hidden;background:#0E1114;box-shadow:0 40px 80px rgba(0,0,0,.35);isolation:isolate}.hero-bg{position:absolute;inset:0;z-index:-2;background-color:#0E1114;background-image:linear-gradient(90deg,rgba(10,12,14,.94) 0%,rgba(10,12,14,.77) 43%,rgba(10,12,14,.55) 100%),linear-gradient(to bottom,rgba(10,12,14,.55),rgba(10,12,14,.85)),url('img/hero.jpg'),url('img/img2.jpg');background-size:cover;background-position:center;animation:heroZoom 1.6s ease-out both}.hero:after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,rgba(10,12,14,.42),transparent 34%);pointer-events:none}.hero-inner{max-width:var(--max);margin:auto;padding:0 var(--space);min-height:inherit;display:flex;flex-direction:column}.nav{min-height:94px;display:flex;align-items:center;justify-content:space-between;gap:20px;border-bottom:1px solid rgba(255,255,255,.1);position:relative;z-index:5}.brand{display:inline-flex;align-items:center;gap:11px;font-weight:700;font-size:18px;white-space:nowrap}.brand-chip{width:36px;height:36px;color:var(--accent)}.nav-links{display:flex;gap:clamp(16px,2.5vw,38px);align-items:center}.nav-links a{font-size:13px;font-weight:600;color:var(--muted);transition:color .2s}.nav-links a:hover{color:#fff}.primary{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;border-radius:var(--pill);background:var(--accent);color:white;font-weight:700;font-size:13px;border:1px solid transparent;transition:filter .2s,transform .2s}.primary:hover{filter:brightness(1.12);transform:translateY(-2px)}.hamburger{display:none;align-items:center;justify-content:center;width:48px;height:48px;border:1px solid var(--line);background:var(--glass);color:#fff;border-radius:14px}.hero-main{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);align-items:center;gap:clamp(32px,5vw,80px);flex:1;padding:70px 0 110px}.hero-copy h1{font-size:clamp(40px,5.6vw,72px);line-height:1.08;letter-spacing:-.02em;font-weight:700;max-width:14ch;margin:0 0 24px}.hero-copy p{font-size:clamp(16px,1.5vw,18px);line-height:1.8;color:var(--muted);max-width:420px;margin:0 0 34px}.split-cta{display:inline-flex;gap:7px;align-items:center}.split-cta .label{min-height:54px;display:flex;align-items:center;border:1px solid var(--line);background:rgba(18,22,25,.65);backdrop-filter:blur(16px);border-radius:var(--pill);padding:0 25px;font-size:14px;font-weight:600}.split-cta .arrow{width:54px;height:54px;display:grid;place-items:center;border:1px solid var(--line);background:rgba(18,22,25,.65);backdrop-filter:blur(16px);border-radius:50%;transition:background .3s}.split-cta svg{width:20px;height:20px;transition:transform .3s}.split-cta:hover .arrow{background:rgba(255,255,255,.23)}.split-cta:hover svg{transform:rotate(45deg)}.glass{background:var(--glass);border:1px solid var(--line);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}.carousel-wrap{min-width:0}.carousel-card{padding:12px;border-radius:var(--card-radius);box-shadow:0 30px 70px rgba(0,0,0,.2)}.carousel-image{position:relative;aspect-ratio:1.45;overflow:hidden;border-radius:18px;background:#1b252b}.carousel-image img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .6s}.carousel-image img.active{opacity:1}.carousel-controls{display:flex;align-items:center;gap:20px;padding:18px 8px 6px}.count{font-size:12px;font-weight:700;letter-spacing:.1em;white-space:nowrap}.segments{display:flex;gap:7px;flex:1}.segment{border:0;background:rgba(255,255,255,.25);height:4px;min-width:0;flex:1;border-radius:10px;padding:0;position:relative}.segment:before{content:'';position:absolute;inset:-20px 0}.segment.active{background:#fff}.service-caption{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;margin-top:23px}.service-caption h2{font-size:clamp(22px,2.3vw,32px);line-height:1.2;margin:0}.service-caption p{font-size:13px;color:var(--muted);line-height:1.75;margin:0}.explore{position:absolute;left:50%;bottom:86px;transform:translateX(-50%);height:150px;width:150px;border-radius:50%;display:grid;place-items:center;background:rgba(17,22,25,.7);border:1px solid var(--line);backdrop-filter:blur(16px);z-index:2}.explore-ring{position:absolute;width:100%;height:100%;animation:spin 20s linear infinite}.explore-ring text{fill:white;font-size:13px;letter-spacing:2px;font-weight:600}.explore .brand-chip{width:40px;height:40px}.hero-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;padding:24px 0 28px;border-top:1px solid rgba(255,255,255,.1);position:relative;z-index:3}.experience,.touch{display:flex;align-items:center;gap:15px;font-size:13px;font-weight:600}.stack{display:flex;padding-left:8px}.round-icon{width:46px;height:46px;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;background:rgba(255,255,255,.1);backdrop-filter:blur(16px)}.stack .round-icon{margin-left:-8px}.round-icon svg{width:20px;height:20px}.touch a{transition:background .2s}.touch a:hover{background:rgba(255,255,255,.24)}main{overflow:hidden}.section{max-width:var(--max);margin:auto;padding:110px var(--space)}.eyebrow{color:var(--accent);font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:700;margin:0 0 18px}.section h2.section-title{font-size:clamp(34px,4.5vw,56px);letter-spacing:-.025em;line-height:1.12;margin:0 0 44px}.services-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.service-card{padding:14px 14px 28px;border-radius:var(--card-radius);transition:border-color .3s,transform .3s}.service-card:hover{border-color:rgba(31,170,111,.7);transform:translateY(-4px)}.service-card .photo{overflow:hidden;border-radius:18px;position:relative;aspect-ratio:1.4;background:#20272b}.service-card .photo:after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 60%,rgba(0,0,0,.22))}.service-card img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.service-card:hover img{transform:scale(1.04)}.service-card h3{font-size:21px;margin:24px 10px 12px}.service-card p{font-size:14px;line-height:1.8;color:var(--muted);margin:0 10px}.story{position:relative;isolation:isolate;background:#101619}.story:before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(rgba(14,17,20,.92),rgba(14,17,20,.94)),url('img/hero.jpg'),url('img/img2.jpg') center/cover;filter:blur(10px);transform:scale(1.04)}.story-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.story-panel{padding:clamp(28px,4vw,55px);border-radius:var(--radius)}.story-panel h2{font-size:clamp(28px,3vw,40px);margin:0 0 22px}.story-panel p{color:var(--muted);line-height:1.95;font-size:15px;margin:0 0 18px}.story-panel p:last-child{margin-bottom:0}.contact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.contact-card{padding:30px 24px;border-radius:var(--card-radius);min-width:0}.contact-card .round-icon{margin-bottom:28px}.contact-card small{display:block;color:var(--muted);margin-bottom:12px}.contact-card .value{font-size:clamp(14px,1.5vw,20px);font-weight:700;overflow-wrap:anywhere}.contact-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px;align-items:center}footer{border-top:1px solid rgba(255,255,255,.1);max-width:var(--max);margin:auto;padding:30px var(--space) 42px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}footer .logo-image{width:125px;height:auto;border-radius:9px;background:#fff;padding:5px}footer p{font-size:12px;color:rgba(255,255,255,.6);margin:0}.reveal{opacity:0;transform:translateY(24px);transition:opacity .6s,transform .6s}.reveal.visible{opacity:1;transform:none}@keyframes heroZoom{from{transform:scale(1.08)}to{transform:scale(1)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes arrive{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}.intro{animation:arrive .65s both}.nav.intro{animation-delay:1.6s}.hero-copy h1.intro{animation-delay:1.72s}.hero-copy p.intro{animation-delay:1.84s}.hero-copy .split-cta.intro{animation-delay:1.96s}.carousel-wrap.intro{animation-delay:2.08s}.hero-bottom.intro{animation-delay:2.2s}
+@media(max-width:900px){.page-top{padding:8px}.hero{min-height:0}.nav{min-height:78px}.nav-links{display:none;position:absolute;top:calc(100% + 8px);left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:rgba(20,25,29,.94);border:1px solid var(--line);backdrop-filter:blur(16px);padding:12px;border-radius:18px}.nav-links.open{display:flex}.nav-links a{padding:14px;min-height:44px}.nav>.primary{margin-left:auto}.hamburger{display:flex}.hero-main{grid-template-columns:1fr;padding:70px 0 165px;gap:46px}.hero-copy h1{max-width:14ch}.carousel-wrap{max-width:650px;width:100%}.explore{width:110px;height:110px;bottom:auto;top:390px;left:auto;right:var(--space);transform:none}.hero-bottom{padding-top:22px}.services-grid{grid-template-columns:1fr 1fr}.story-grid{grid-template-columns:1fr}.contact-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.nav>.primary{display:none}.brand{font-size:16px}.brand-chip{width:32px;height:32px}.hero-main{padding:60px 0 44px}.hero-copy h1{font-size:clamp(40px,10vw,56px)}.explore{position:relative;top:auto;right:auto;bottom:auto;left:auto;transform:none;margin:-16px auto 32px}.hero-bottom{align-items:flex-start}.experience,.touch{font-size:12px}.service-caption{grid-template-columns:1fr;gap:8px}.services-grid,.contact-grid{grid-template-columns:1fr}.section{padding-top:76px;padding-bottom:76px}.section h2.section-title{margin-bottom:30px}footer{align-items:flex-start;flex-direction:column}}
+@media(max-width:380px){.hero-inner{padding:0 18px}.brand{font-size:14px}.hero-copy h1{font-size:40px}.contact-card{padding:22px 18px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.intro,.reveal{opacity:1!important;transform:none!important}}
 
-        header {
-            background: #333;
-            color: #fff;
-            padding: 10px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+/* Cinematic service transitions inspired by the supplied reference */
+.hero{background:#0E1114}.hero-bg{opacity:.3}.scene-backdrops{position:absolute;inset:0;z-index:-2;overflow:hidden;pointer-events:none}.scene-backdrop{position:absolute;inset:-3%;background-position:center;background-size:cover;opacity:0;transform:scale(1.13);filter:saturate(.7);transition:opacity 1.15s cubic-bezier(.2,.7,.2,1),transform 6.5s ease}.scene-backdrop.active{opacity:.7;transform:scale(1.01)}.hero:after{background:linear-gradient(90deg,rgba(5,8,11,.95),rgba(5,8,11,.67) 48%,rgba(5,8,11,.58)),linear-gradient(0deg,rgba(5,8,11,.94),transparent 55%)}.hero-copy{position:relative;z-index:1}.hero-copy h1{font-size:clamp(43px,6vw,82px);text-wrap:balance}.carousel-card{background:rgba(13,20,25,.42)}.service-caption h2{transition:opacity .35s,transform .35s}.service-caption p{transition:opacity .35s,transform .35s}.carousel-wrap.switching .service-caption h2,.carousel-wrap.switching .service-caption p{opacity:.15;transform:translateY(8px)}.carousel-image img{transition:opacity .9s ease,transform 5s ease;transform:scale(1.06)}.carousel-image img.active{transform:scale(1)}.scene-counter{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.72);margin-bottom:22px;display:flex;align-items:center;gap:12px}.scene-counter:before{content:'';height:1px;width:30px;background:var(--accent)}.section-title{max-width:16ch}.service-card{box-shadow:0 20px 60px rgba(0,0,0,.15)}
+@media(max-width:900px){.scene-backdrop{background-position:55% center}.hero:after{background:linear-gradient(90deg,rgba(5,8,11,.9),rgba(5,8,11,.66)),linear-gradient(0deg,rgba(5,8,11,.92),transparent 70%)}}
+@media(prefers-reduced-motion:reduce){.scene-backdrop,.carousel-image img,.service-caption h2,.service-caption p{transition:none!important;transform:none!important}.scene-backdrop:not(:first-child){display:none}.scene-backdrop:first-child{opacity:.65!important}}
 
-        header h1 {
-            margin: 0;
-            font-size: 24px;
-        }
-
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        .banner {
-            background: url('img/img.jpg') no-repeat center center/cover;
-            height: 60vh;
-            color: #f6f6f8;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-
-        .banner h2 {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
-
-        .banner p {
-            font-size: 18px;
-        }
-
-        .hidden {
-            display: none;
-        }
-
-        .services, .mission, .contact {
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        .services h2, .mission h2, .contact h2 {
-            margin-bottom: 20px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: #fff;
-            margin-top: 20px;
-        }
-
-        .services {
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        .services h2 {
-            margin-bottom: 20px;
-        }
-
-        .services .service {
-            display: inline-block;
-            margin: 20px;
-            padding: 20px;
-            background: #f4f4f4;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            width: 300px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        .services .service img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 10px;
-        }
-
-        .services .service h3 {
-            margin-bottom: 10px;
-        }
-
-
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Movile Solutions</h1>
-        <nav>
-            <ul>
-                <li><a id="link-services" href="#services">Services</a></li>
-                <li><a id="link-mission" href="#mission">Mission/About Us</a></li>
-                <li><a id="link-contact" href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="banner">
-        <div>
-            <h2>Welcome to Movile Solutions</h2>
-            <p>Your trusted partner in computer repair and maintenance.</p>
-        </div>
-    </div>
-
-    <section id="services" class="services hidden">
-        <section class="services" id="services">
-            <h2>Our Services</h2>
-            <div class="service">
-                <img src="img/img1.png" alt="Service 1">
-                <h3>Hardware repair</h3>
-                <p>Maintenance and Repair of Desktop and Laptop Computers.</p>
-            </div>
-            <div class="service">
-                <img src="img/img2.jpg" alt="Service 2">
-                <h3>Software Installation</h3>
-                <p>We install any type of software that the client wants or needs.</p>
-            </div>
-            <div class="service">
-                <img src="img/img3.jpg" alt="Service 3">
-                <h3>Truck Software Installation</h3>
-                <p>We install programs for computers from small trucks to heavy transport.</p>
-            </div>
-        </section>        
-        </section>
-    
-
-    <section id="mission" class="mission">
-        <h2>Our Mission</h2>
-        <p>At Movile Solutions, our mission is to provide the highest quality computer repair services to our community,</p>
-        <p>ensuring customer satisfaction and trust. Our goal is to be the ideal solution for all your computing needs.</p>
-        <h2>About Us</h2>
-        <p>At Movile Solutions, we are passionate about technology and understand how important it is to your daily life and your business.</p>
-        <p>With more than 10 years of experience in the market, we have dedicated ourselves to offering fast, reliable and affordable solutions</p>
-        <p>for any problem related to your computer equipment.</p>
-    </section>
-
-    <section id="contact" class="contact hidden">
-        <h2>Contact Us</h2>
-        <p>Email: mobilesolution3@gmail.com</p>
-        <p>Phone: +1 (323) 335-4863</p>
-        <p>Address: </p>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Movile Solutions. All Rights Reserved.</p>
-    </footer>
-
-    <script>
-        // JavaScript to handle navigation
-        document.addEventListener('DOMContentLoaded', () => {
-            const sections = {
-                services: document.getElementById('services'),
-                contact: document.getElementById('contact'),
-                mission: document.getElementById('mission')
-            };
-
-            // Hide all sections except the banner and mission initially
-            Object.values(sections).forEach(section => {
-                if (!section.classList.contains('mission')) {
-                    section.classList.add('hidden');
-                }
-            });
-
-            // Add event listeners to navigation links
-            document.getElementById('link-services').addEventListener('click', (e) => {
-                e.preventDefault();
-                showSection('services');
-            });
-
-            document.getElementById('link-contact').addEventListener('click', (e) => {
-                e.preventDefault();
-                showSection('contact');
-            });
-
-            document.getElementById('link-mission').addEventListener('click', (e) => {
-                e.preventDefault();
-                showSection('mission');
-            });
-
-            function showSection(sectionId) {
-                // Hide all sections
-                Object.values(sections).forEach(section => section.classList.add('hidden'));
-                // Show the selected section
-                sections[sectionId].classList.remove('hidden');
-                // Scroll to the selected section
-                sections[sectionId].scrollIntoView({ behavior: 'smooth' });
-            }
-        });
-    </script>
-</body>
-</html>
+/* Cinematic fixed background throughout the entire page */
+:root{--bg:#080e13;--glass:rgba(8,17,23,.64);--line:rgba(255,255,255,.17)}
+html{background:#080e13}body{background:transparent;position:relative;min-width:320px}
+body::before{content:"";position:fixed;inset:0;z-index:-5;background:#080e13 url("img/hero.jpg") center center/cover no-repeat;pointer-events:none}
+body::after{content:"";position:fixed;inset:0;z-index:-4;background:linear-gradient(90deg,rgba(4,9,14,.88),rgba(4,9,14,.64) 55%,rgba(4,9,14,.73)),linear-gradient(180deg,rgba(4,9,14,.32),rgba(4,9,14,.80));pointer-events:none}
+.page-top{background:transparent;padding:0}.hero{border-radius:0;box-shadow:none;min-height:100svh;background:transparent;overflow:hidden}
+.hero-bg,.scene-backdrops,.scene-backdrop{display:none!important;animation:none!important}
+.hero:after{background:none!important}.hero-inner{min-height:100svh}.hero-main{padding-bottom:135px}
+main{background:transparent;overflow:clip}.section{position:relative}.story{background:rgba(5,11,16,.42)}.story:before{display:none}
+.glass{background:rgba(8,17,23,.63);border-color:rgba(255,255,255,.18);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.service-card,.contact-card,.story-panel{box-shadow:0 16px 55px rgba(0,0,0,.24)}
+#services{padding-top:115px}.section-title{text-shadow:0 4px 22px rgba(0,0,0,.45)}
+.hero-copy h1{max-width:15ch}.hero-copy h1 .highlight{color:#62e2b0}
+.hero-copy p,.service-caption p{color:rgba(255,255,255,.84)}
+.explore{bottom:105px}.service-card .photo{aspect-ratio:1.45}
+footer{background:rgba(5,11,16,.18)}
+@media(max-width:900px){.hero,.hero-inner{min-height:0}.hero-main{padding-bottom:120px}.explore{top:auto;bottom:110px;right:var(--space)}body::before{background-position:58% center}}
+@media(max-width:600px){.hero-main{padding-bottom:35px}.explore{position:relative;bottom:auto;right:auto;margin:0 auto 25px}.hero-bottom{padding-top:20px}.page-top{padding:0}.hero-copy h1{font-size:clamp(39px,10vw,55px)}body::after{background:rgba(4,9,14,.79)}.section{padding-left:22px;padding-right:22px}}
+@media(prefers-reduced-motion:reduce){body::before{background-attachment:initial}}
+</style></head><body>
+<div class="page-top"><header class="hero" id="top"><div class="hero-bg" aria-hidden="true"></div><div class="scene-backdrop" style="background-image:url('img/img2.jpg')"></div><div class="scene-backdrop" style="background-image:url('img/img3.jpg')"></div><div class="hero-inner"><nav class="nav intro" aria-label="Main navigation"><a href="#top" class="brand"><svg class="brand-chip" viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="10" width="28" height="28" rx="5" fill="none" stroke="currentColor" stroke-width="3"/><rect x="18" y="18" width="12" height="12" rx="2" fill="currentColor"/><path d="M17 3v7m14-7v7M17 38v7m14-7v7M3 17h7m-7 14h7m28-14h7m-7 14h7" stroke="currentColor" stroke-width="3"/></svg><span>Movile Solutions</span></a><div class="nav-links" id="navLinks"><a href="#services">Services</a><a href="#mission">Mission</a><a href="#about">About Us</a><a href="#contact">Contact</a></div><a class="primary" href="#contact">Contact Us</a><button class="hamburger" id="menuButton" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></nav>
+<div class="hero-main"><div class="hero-copy"><div class="scene-counter intro" id="sceneCounter">01 — 03 / EXPLORE</div><h1 class="intro">Welcome to <span class="highlight">Movile Solutions</span></h1><p class="intro">Your trusted partner in computer repair and maintenance.</p><a class="split-cta intro" href="#services"><span class="label">See our services</span><span class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 19 19 5M8 5h11v11"/></svg></span></a></div><div class="carousel-wrap intro" id="carousel" aria-label="Featured services"><div class="carousel-card glass"><div class="carousel-image"><img src="img/img1.png" width="800" height="550" alt="Technician repairing a laptop" class="active"><img src="img/img2.jpg" width="800" height="550" alt="Software installation on a computer"><img src="img/img3.jpg" width="800" height="550" alt="Truck computer software diagnostics"></div><div class="carousel-controls"><span class="count" id="slideCount">01/03</span><div class="segments" aria-label="Choose featured service"><button class="segment active" aria-label="Show Hardware repair" aria-pressed="true" type="button"></button><button class="segment" aria-label="Show Software Installation" aria-pressed="false" type="button"></button><button class="segment" aria-label="Show Truck Software Installation" aria-pressed="false" type="button"></button></div></div></div><div class="service-caption" aria-live="off"><h2 id="slideTitle">Hardware repair</h2><p id="slideDesc">Maintenance and Repair of Desktop and Laptop Computers.</p></div></div></div>
+<a class="explore" href="#services" aria-label="Explore our services"><svg class="explore-ring" viewBox="0 0 150 150" aria-hidden="true"><defs><path id="ringPath" d="M75,75 m-56,0 a56,56 0 1,1 112,0 a56,56 0 1,1 -112,0"/></defs><text><textPath href="#ringPath">Explore our services • Explore our services • </textPath></text></svg><svg class="brand-chip" viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="10" width="28" height="28" rx="5" fill="none" stroke="currentColor" stroke-width="3"/><rect x="18" y="18" width="12" height="12" rx="2" fill="currentColor"/></svg></a>
+<div class="hero-bottom intro"><div class="experience"><div class="stack"><span class="round-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m14 7 3-3 3 3-3 3M4 20l10-10M3 14l7 7"/></svg></span><span class="round-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11"/></svg></span><span class="round-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M2 6h12v11H2zM14 10h4l4 4v3h-8z"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg></span></div><span>10+ years of experience</span></div><div class="touch"><span>Get in touch</span><a class="round-icon" href="mailto:mobilesolution3@gmail.com" aria-label="Email Movile Solutions"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m3 7 9 7 9-7"/></svg></a><a class="round-icon" href="tel:+13233354863" aria-label="Call Movile Solutions"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 3h4l2 5-3 2c1 3 3 5 6 6l2-3 4 2v4c0 2-2 3-4 2C9 19 5 15 3 7c-1-2 1-4 3-4z"/></svg></a></div></div></div></header></div>
+<main><section class="section" id="services"><div class="reveal"><p class="eyebrow">What we do</p><h2 class="section-title">Our Services</h2></div><div class="services-grid"><article class="service-card glass reveal"><div class="photo"><img src="img/img1.png" alt="Technician repairing a laptop" width="800" height="550" loading="lazy"></div><h3>Hardware repair</h3><p>Maintenance and Repair of Desktop and Laptop Computers.</p></article><article class="service-card glass reveal"><div class="photo"><img src="img/img2.jpg" alt="Software installation on a computer" width="800" height="550" loading="lazy"></div><h3>Software Installation</h3><p>We install any type of software that the client wants or needs.</p></article><article class="service-card glass reveal"><div class="photo"><img src="img/img3.jpg" alt="Truck computer software diagnostics" width="800" height="550" loading="lazy"></div><h3>Truck Software Installation</h3><p>We install programs for computers from small trucks to heavy transport.</p></article></div></section><div class="story"><div class="section story-grid"><section class="story-panel glass reveal" id="mission"><p class="eyebrow">Our purpose</p><h2>Our Mission</h2><p>At Movile Solutions, our mission is to provide the highest quality computer repair services to our community, ensuring customer satisfaction and trust. Our goal is to be the ideal solution for all your computing needs.</p></section><section class="story-panel glass reveal" id="about"><p class="eyebrow">Who we are</p><h2>About Us</h2><p>At Movile Solutions, we are passionate about technology and understand how important it is to your daily life and your business.</p><p>With more than 10 years of experience in the market, we have dedicated ourselves to offering fast, reliable and affordable solutions for any problem related to your computer equipment.</p></section></div></div><section class="section" id="contact"><div class="reveal"><p class="eyebrow">Let's connect</p><h2 class="section-title">Contact Us</h2></div><div class="contact-grid"><article class="contact-card glass reveal"><span class="round-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="m3 7 9 7 9-7"/></svg></span><small>Email</small><a class="value" href="mailto:mobilesolution3@gmail.com">mobilesolution3@gmail.com</a></article><article class="contact-card glass reveal"><span class="round-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 3h4l2 5-3 2c1 3 3 5 6 6l2-3 4 2v4c0 2-2 3-4 2C9 19 5 15 3 7c-1-2 1-4 3-4z"/></svg></span><small>Phone</small><a class="value" href="tel:+13233354863">+1 (323) 335-4863</a></article><article class="contact-card glass reveal"><span class="round-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><small>Address</small><span class="value">[YOUR ADDRESS]</span></article></div><div class="contact-actions reveal"><a class="primary" href="mailto:mobilesolution3@gmail.com">Send an email</a><a class="split-cta" href="tel:+13233354863"><span class="label">Call now</span><span class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 19 19 5M8 5h11v11"/></svg></span></a></div></section></main><footer><a href="#top" class="brand"><svg class="brand-chip" viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="10" width="28" height="28" rx="5" fill="none" stroke="currentColor" stroke-width="3"/><rect x="18" y="18" width="12" height="12" rx="2" fill="currentColor"/></svg><span>Movile Solutions</span></a><img class="logo-image" src="img/logo.png" width="125" height="84" loading="lazy" alt="Movile Solutions logo"><p>© 2025 Movile Solutions. All Rights Reserved.</p></footer>
+<script>
+(()=>{'use strict';const menu=document.getElementById('menuButton'),links=document.getElementById('navLinks');menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Close navigation menu':'Open navigation menu');links.classList.toggle('open',open)});links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Open navigation menu')}));document.addEventListener('keydown',e=>{if(e.key==='Escape'){links.classList.remove('open');menu.setAttribute('aria-expanded','false')}});const slides=[['Hardware repair','Maintenance and Repair of Desktop and Laptop Computers.'],['Software Installation','We install any type of software that the client wants or needs.'],['Truck Software Installation','We install programs for computers from small trucks to heavy transport.']];const carousel=document.getElementById('carousel'),images=[...carousel.querySelectorAll('.carousel-image img')],buttons=[...carousel.querySelectorAll('.segment')],count=document.getElementById('slideCount'),title=document.getElementById('slideTitle'),desc=document.getElementById('slideDesc');let current=0,timer=null,paused=false;const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');function show(i){current=i;const indicator=document.getElementById('sceneCounter');if(indicator)indicator.textContent=String(i+1).padStart(2,'0')+' — 03 / EXPLORE';images.forEach((im,n)=>im.classList.toggle('active',n===i));buttons.forEach((b,n)=>{b.classList.toggle('active',n===i);b.setAttribute('aria-pressed',String(n===i))});count.textContent=String(i+1).padStart(2,'0')+'/03';title.textContent=slides[i][0];desc.textContent=slides[i][1]}function stop(){clearInterval(timer);timer=null}function start(){stop();if(!reduced.matches&&!paused)timer=setInterval(()=>show((current+1)%3),5000)}buttons.forEach((b,i)=>b.addEventListener('click',()=>{show(i);start()}));carousel.addEventListener('mouseenter',()=>{paused=true;stop()});carousel.addEventListener('mouseleave',()=>{paused=false;start()});carousel.addEventListener('focusin',()=>{paused=true;stop()});carousel.addEventListener('focusout',e=>{if(!carousel.contains(e.relatedTarget)){paused=false;start()}});reduced.addEventListener('change',start);start();const items=document.querySelectorAll('.reveal');if('IntersectionObserver'in window&&!reduced.matches){const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.1});items.forEach(x=>observer.observe(x))}else items.forEach(x=>x.classList.add('visible'));reduced.addEventListener('change',()=>{if(reduced.matches)items.forEach(x=>x.classList.add('visible'))})})();
+</script></body></html>
